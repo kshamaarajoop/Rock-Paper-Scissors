@@ -1,0 +1,59 @@
+
+body{
+  background-color: black;
+  font-family: Arial;
+  color: white;
+
+  
+ }
+ 
+ .scoref{
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+ }
+ .headings{
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+ }
+ .your-result{
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+ }
+ .js-moves{
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+ }
+
+ .title1{
+  font-size: 35px;
+  font-weight: bold;
+ }
+ .pmove{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 70px;
+  cursor: pointer
+
+ }
+
+ .pmove-icon{
+  width: 50px;
+  height: 50px;
+ }
+
+ .reset,
+ .autop{
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-family: Arial;
+  font-weight: bold;
+  cursor:pointer;
+ }

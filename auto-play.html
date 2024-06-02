@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="./main.css">
+
+  </head>
+  <body>
+    <p class="title1">Rock Paper Scissors</p>
+    <button class="pmove js-rock"><img src="images/Rock.png" class="pmove-icon">
+    </button>
+
+    <button class="pmove js-paper"><img src="images/Paper.png" class="pmove-icon">
+    </button>
+
+    <button class="pmove js-sci"><img src="images/Scissors.png" class="pmove-icon">
+    </button>
+   
+    <p class="headings">Scores</p>
+    <p class="js-score scoref"></p>
+
+    <p class="your-result"></p>
+    <p class="js-moves"></p>
+
+    <button onclick = "
+    Score.win = 0;
+    Score.Loses = 0;
+    Score.Tie = 0;
+    
+    localStorage.removeItem('score');
+    document.querySelector('.js-score').innerHTML=`Wins:${Score.win},Loses:${Score.Loses},Ties:${Score.Tie}`
+     
+    " class="reset"
+   
+    >Reset Score</button>
+    <button onclick = "auto();" class="autop"> Auto Play</button>
+
+
+  </body>
+
+
+  <script src="./index.js">
+  </script>
+</html>
